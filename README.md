@@ -3,7 +3,7 @@ Unofficial spotify plugin for Kodi, (for now) not yet available in the official 
 
 Based on the opensource Librespot client. Special thanks to mherger for building the special spotty binaries, based on librespot.
 
-This a fork of [marcelveldt](https://github.com/marcelveldt) version modified to make it work with Kodi 19.
+This a fork of [ldsz](https://github.com/ldsz/plugin.audio.spotify) version which is fork of [marcelveldt](https://github.com/marcelveldt) version modified to make it work with Kodi 19.
 
 ## Support
 create issue in Github
