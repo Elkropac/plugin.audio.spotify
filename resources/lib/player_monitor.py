@@ -130,7 +130,7 @@ class ConnectPlayer(xbmc.Player):
             if cur_playback["is_playing"] and (not xbmc.getCondVisibility("Player.Paused") or force):
                 player_title = None
                 if self.isPlaying():
-                    player_title = self.getMusicInfoTag().getTitle().decode("utf-8")
+                    player_title = self.getMusicInfoTag().getTitle()
                 
                 trackdetails = cur_playback["item"]
                 if trackdetails is not None and (not player_title or player_title != trackdetails["name"]):
