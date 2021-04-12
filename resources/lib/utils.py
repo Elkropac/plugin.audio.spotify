@@ -108,6 +108,7 @@ def kill_spotty():
         subprocess.Popen(["taskkill", "/IM", "spotty.exe"], startupinfo=startupinfo, shell=True)
     else:
         os.system("killall spotty")
+        os.system("killall spotty-x86_64")
 
 
 def kill_on_timeout(done, timeout, proc):
